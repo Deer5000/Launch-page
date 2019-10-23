@@ -1,0 +1,46 @@
+.navbar {
+  padding: 1rem;
+  background-color: blue;
+  color: gold;
+ }
+.btn-primary:hover {
+  background-color: gold
+}
+  
+.hero-background-img {
+  position: relative;
+  background: rgba(255, 255, 255, 0.201); /* If our image is bright, we can tone it down with this darker overlay */
+  padding-top:200px;  
+  padding-bottom:200px;
+}
+.hero-background-img:after {
+  content: "";
+  position: absolute;
+  background-image: url("amalfi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5; /* Tone the image down further by giving it transparency */
+}
+
+h1 {
+  color: rgb(242, 215, 64);
+}
+p {
+  color: gold;
+}
+
+h3 {
+  color: rgb(77, 193, 255);
+}
+.nav-item {
+  text-decoration-color: gold;
+}
+.container {
+  background-color: slategrey
+}
